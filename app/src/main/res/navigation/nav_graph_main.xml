@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph_main"
+    app:startDestination="@id/fragmentCity">
+
+
+    <fragment
+        android:id="@+id/fragmentCity"
+        android:name="com.example.ramalancuaca.ui.CityFragment">
+
+        <action
+            android:id="@+id/openWeatherForecast"
+            app:destination="@id/fragmentWeatcherForecast"
+           >
+            <argument
+                android:name="selectedCity"
+                app:argType="com.nilevia.domain.models.City"
+                app:nullable="false"/>
+
+        </action>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentWeatcherForecast"
+        android:name="com.example.ramalancuaca.ui.WeatherForecastFragment">
+
+        <argument
+            android:name="selectedCity"
+            app:argType="com.nilevia.domain.models.City"/>
+
+
+    </fragment>
+
+</navigation>
+

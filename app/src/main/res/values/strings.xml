@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Cuaca</string>
+    <string name="hint_search_city">Cari kota…</string>
+    <string name="lbl_favorite_city">Daftar Kota Favorit</string>
+    <string name="lbl_favorite_city_empty">Lagi kosong nih,\nKamu bisa menambahkan kota favorit setelah pencarian ya.</string>
+    <string name="btn_use_current_city">Gunakan lokasi saya</string>
+    <string name="btn_save_city">Simpan Kota</string>
+    <string name="btn_delete_city">Hapus Kota</string>
+    <string name="lbl_current_city">kota terdeteksi 1%s</string>
+    <string name="lbl_temperature">Temperature\n(celcius)</string>
+    <string name="lbl_humidity">Kelembapan\n(%)</string>
+    <string name="lbl_wind">Angin\n(m/sec)</string>
+    <string name="lbl_retry_network">Gagal memuat data, coba lagi</string>
+    <string name="lbl_notfound_network">Tidak ada data, coba lagi</string>
+    <string name="btn_retry_network">Muat Ulang</string>
+</resources>
