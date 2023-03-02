@@ -39,7 +39,7 @@ class CityViewModel(
         viewModelScope.launch(Dispatchers.IO) {
             usecase.searchCity(query).collect{resource ->
                 when(resource.status){
-                    Resource.Status.LOADING -> _searchedCity.postValue(listOf())
+                    Resource.Status.LOADING -> {}
                     Resource.Status.SUCCESS -> _searchedCity.postValue(resource.data)
                     Resource.Status.ERROR -> _searchedCity.postValue(null)
                 }

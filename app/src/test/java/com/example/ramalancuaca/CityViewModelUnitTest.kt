@@ -75,7 +75,6 @@ class CityViewModelUnitTest {
 
             // verify observer change as a result of api call
             verifyOrder {
-                searchedCityObserver.onChanged(listOf())
                 searchedCityObserver.onChanged(resultSuccess.data)
             }
         }
@@ -102,7 +101,6 @@ class CityViewModelUnitTest {
 
             // verify observer change as a result of api call
             verifyOrder {
-                searchedCityObserver.onChanged(listOf())
                 searchedCityObserver.onChanged(null)
             }
         }

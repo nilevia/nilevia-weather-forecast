@@ -4,6 +4,11 @@ Weather Forecast Project
 
 ## Result
 
+![](https://github.com/nilevia/nilevia-weather-forecast/blob/main/documentation/1.png)
+![](https://github.com/nilevia/nilevia-weather-forecast/blob/main/documentation/2.png)
+![](https://github.com/nilevia/nilevia-weather-forecast/blob/main/documentation/3.png)
+![](https://github.com/nilevia/nilevia-weather-forecast/blob/main/documentation/4.png)
+
 
 ## Archietecture
 Clean Arch and MVVM Pattern
@@ -31,4 +36,4 @@ I run out of time because this done on weekday with full of meeting, so here's k
 - If you already save the city and then click on the favourite city, the button save will appear (it should be delete city) if you click, it will save twice
 - Layout is not good enough, have no time to desain
 - I give unit test example just for one viewmodel
-- Im not do the hackerank yet. So tired lah tonight.
+- Im not do the hackerank yet.
